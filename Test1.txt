@@ -207,7 +207,7 @@ public class Player : Character
 
 		double randomValue = random.NextDouble();
 
-		if(randomValue <= activationProbability)
+		if(randomValue == activationProbability)
 		{
 			Special_Abilities.Add(special_ability);
 			Console.WriteLine("\nSpecial Ability Unlocked: " + special_ability);
